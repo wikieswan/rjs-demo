@@ -1,0 +1,1 @@
+define("add",[],function(){return function(e,t){return e+t}}),define("minus",[],function(){return function(e,t){return e-t}}),define("pub/ten",[],function(){return function(e){return e*100}}),requirejs(["add","minus","pub/ten"],function(e,t,n){var r=1,i=2,s=e(r,i),o=t(r,i),u=n(r);console.log(s,o,u)}),define("app/index",function(){});
